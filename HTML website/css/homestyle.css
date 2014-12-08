@@ -1,0 +1,159 @@
+#body {
+    padding:0;
+    margin:0;
+    font-family: Arial;
+    font-size: 20px;
+}
+#all{
+width:100%;
+height:100%;
+background-color:white;
+}
+	/* Navigation Bar */
+#nav {
+    background-color:#222;
+	border-radius: 15px;
+	
+}
+#nav_wrapper {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    min-width: 200px;
+}
+#nav ul li {
+    display: inline-block;
+}
+#nav ul li:hover {
+    background-color: #333;
+}
+#nav ul li a, visited {
+    color: #CCC;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+#nav ul li:hover ul {
+    display: block;
+}
+#nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    border: 5px solid #222;
+    border-top: 0;
+    margin-left: -5px;
+}
+#nav ul ul li {
+    display: block;
+}
+#nav ul ul li a:hover {
+    color: #699;
+}
+/* Navigation Bar End */
+
+#leftside{
+	width:100px;
+	height:1500px;
+	background-color:green;
+}
+#rightside{
+	width:100px;
+	height:1500px;
+	background-color:green;
+}
+#space{
+width:100%;
+height:20px;
+}
+#slider{
+height:270px;
+width:960px;
+margin:0 auto;
+float:center;
+}
+#space1{
+width:960px;
+height:30px;
+background-color:white;
+padding:0;
+float:center;
+color:#699;
+}
+#boxes{
+width:960px;
+height:400px;
+margin:0 auto;
+float:center;
+background-color:blue;
+}
+#box1{
+width:320px;
+height:400px;
+float:left;
+background-color:white;
+}
+#box2{
+width:320px;
+height:400px;
+float:right;
+background-color:white;
+}
+#box3{
+width:320px;
+height:400px;
+float:right;
+background-color:white;
+}
+
+#space2{
+width:960px;
+height:30px;
+background-color:white;
+margin:0 auto;
+}
+#boxxes{
+width:1080px;
+height:400px;
+margin:0 auto;
+float:center;
+background-color:white;
+}
+#boxx1{
+width:360px;
+height:400px;
+float:left;
+color:grey;
+}
+#boxx2{
+width:360px;
+height:400px;
+float:right;
+color:grey;
+}
+#boxx3{
+width:360px;
+height:400px;
+float:right;
+color:grey;
+}
+#form
+{
+width:300px;
+height:500px;
+float:right;
+background-color:white;
+margin-left: 50px;
+}
+#video
+{
+width:860;
+height:540;
+float:right;
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<title>Home</title>
+ <link  rel="stylesheet" type="text/css" href="css/homestyle.css">
+<script type="text/javascript">
+
+var slideimages = new Array() // create new array to pre-load images
+slideimages[0] = new Image() // create new instance of image object
+slideimages[0].src = "one.jpg" // set image object src property to an image's src, preloading that image in the process
+slideimages[1] = new Image()
+slideimages[1].src = "two.jpg"
+slideimages[2] = new Image()
+slideimages[2].src = "three.jpg"
+
+</script>
+</head>
+<body>
+<div id="all">
+		<!--Navigation Bar-->
+			<div id="nav">
+		<div id="nav_wrapper">
+			<ul>
+				<li><a href="#">Home</a>
+				</li>
+				<li> <a href="#">Shop</a>
+
+					<ul>
+						<li><a href="sale.html">Laptops &amp; PC's</a>
+						</li>
+						<li><a href="salephones.html">Phones &amp; Tablets</a>
+						</li>
+					</ul>
+				</li>
+				<li> <a href="#">Repairs</a>
+
+					<ul>
+						<li><a href="#">Phones/Tablets Service</a>
+						</li>
+						<li><a href="#">Computer Service</a>
+						</li>
+					</ul>
+				</li>
+				<li> <a href="file:///H:/Semester%201/HTML%20website/contact.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+		<!--Navigation bar end-->
+		<div id="space">
+		</div>
+		<div id="slider">
+			<img src="one.jpg" id="slide" width="960" height="270" />
+		</div>
+	<script type="text/javascript">
+	var step=0
+
+	function slideit(){
+	 if (!document.images)
+	  return
+	 document.getElementById('slide').src = slideimages[step].src
+	 if (step<2)
+	  step++
+	 else
+	  step=0
+	 setTimeout("slideit()",2500)
+	}
+
+	slideit()
+
+</script>	
+<div id="space1">
+<h1> <center>Same day delivery on most items</center></h1>
+</div>
+<div id="boxes">
+	
+	<div id="box1">
+		<img src="smartphone.jpg" width="140" align=middle height="200"/>
+		<h3>Smart-phone Repairs</h3>
+				<p></p>
+				<h2 id="price">Prices starting at &euro;10</h2>
+	</div>
+	
+	<div id="box2">
+		<img src="tablet.jpg" width="200" height="200"/>
+		<h3>Tablet Repairs</h3>
+				<p></p>
+				<h2 id="price">Prices starting at &euro;25</h2>
+	</div>
+	
+	<div id="box3">
+		<img src="laptop.jpg" width="200" height="200"/>
+		<h3>Laptop Repairs</h3>
+				<p></p>
+				<h2 id="price">Prices starting at &euro;25</h2>
+	</div>
+</div>
+
+<div id="space2">
+</div>
+<div id="boxxes">
+	
+	<div id="boxx1">
+		<h3>What we do?</h3>
+				<p>We specialise in Apple iPhone, iPad, iMac and <br> Macbook,  Laptop, Desktop and technology device <br>repairs. All repairs will be carried out by trained<br> technicians in our Dublin workshops, guaranteeing<br> you with an excellent service, along with a 90 days warranty. It’s peace of mind, our competitors<br> wont offer.</p>
+	</div>
+	
+	<div id="boxx2">
+		<h3>What repairs we provide?</h3>
+				<p>Broken screens, faulty charging ports, faulty batteries, faulty headphone jacks, broken housings, card readers, overheating problems, faulty hard drives, damaged ports, broken or faulty buttons, water damage, and many more. Our customers love the 1 hour service!One Hour Service!</p>			
+	</div>
+	
+	<div id="boxx3">
+		<h2>Why Us?</h2>
+				<p>We provide the service you want at a price you can<br>afford. Fast turnaround on repairs, One Hour Screen Repair, Workshop based in the City Centre, 90 Day Warranty on repairs. It doesn’t get any better.</p>
+	</div>
+</div>
+
+<!--form-->
+<div id="form">
+	<img src="quick-quote.jpg" width="157" height="40" />
+	<form action="action_page.php">
+	First and Last name:<br>
+	<input type="text" name="firstname" value="">
+	<br>
+	Mobile number:<br>
+	<input type="text" name="firstname" value="">
+	<br>
+	Email:<br>
+	<input type="text" name="Email" value="">
+	<br><br>
+	<select>
+	  <option value="Select">Select</option>
+	  <option value="Laptop">Laptop</option>
+	  <option value="Phone">Phone</option>
+	  <option value="Tablet">Tablet</option>
+	</select>
+	<br><br>
+	Device Brand:<br>
+	<input type="text" name="Brand" value="">
+	<br>
+	Device Model:<br>
+	<input type="text" name="Model" value="">
+	<br>
+	What problem are you having?:<br>
+	<input type="text" name="Problem" value="">
+	<br><br>
+	
+	<input type="submit" value="Get Quick Quote">
+	</form>
+	</div>
+<!--Form-->
+<!-- youtube video-->
+<div id="video">
+<iframe width="860" height="540"
+src="https://www.youtube.com/watch?v=eqcr7afRsX4">
+</iframe>
+
+</div>
+<!--video end-->
+
+
+</div>
+</body>
+
+</html>
