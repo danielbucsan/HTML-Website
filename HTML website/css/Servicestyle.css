@@ -4,15 +4,15 @@
     font-family: Arial;
     font-size: 20px;
 }
-#everything{
-	width:100%;
-	height:1200px;
-	background-color:#4DDBFF;
+#all{
+width:100%;
+height:100%;
+background-color:white;
 }
-
 	/* Navigation Bar */
 #nav {
     background-color:#222;
+	border-radius: 15px;
 	
 }
 #nav_wrapper {
@@ -55,62 +55,73 @@
 }
 #nav ul ul li a:hover {
     color: #699;
-	/* Navigation Bar End */
 }
-#div1{
-width:150px;
-height:100%;
+/* Navigation Bar End */
+
+#leftside{
+	width:100px;
+	height:1500px;
+	background-color:green;
+}
+#rightside{
+	width:100px;
+	height:1500px;
+	background-color:green;
+}
+#space{
+width:100%;
+height:20px;
+}
+#slider{
+height:270px;
+width:960px;
+margin:0 auto;
+float:center;
+}
+#space1{
+width:960px;
+height:30px;
 background-color:white;
+padding:0;
+float:center;
+color:#699;
+}
+#space2{
+width:960px;
+height:30px;
+background-color:white;
+margin:0 auto;
+
+
+
+}
+#boxxes{
+width:1080px;
+height:400px;
+margin:0 auto;
+float:center;
+background-color:white;
+}
+#boxx1{
+width:360px;
+height:400px;
 float:left;
+color:black;
 }
-#div2{
-width:150px;
-height:100%;
-background-color:white;
+#boxx2{
+width:360px;
+height:400px;
 float:right;
-}
-#form{
-	width:300px;
-	height:500px;
-	margin:0 auto;
-	background-color:white;
-	margin-right:250px;
-	margin-top:100px;
-	border-radius:10px;
-}
-#map{
-	width:600px;
-	height:350px;
-	background-color:white;
-	margin-left:480px;
-	margin-top:-330px;
-	
-	}
-#facebook{
-	width:50px;
-	height:50px;
-	float:left;
-	background-color:white;
-	margin-right:50px;
-}
-#contact{
-	font-size:18px;
-	height:330px;
-	width:300px;
-	background-color:white;
-	margin-left:170px;
-	margin-top:50px;
-	border-radius:10px;
-}
-#img{
-	width:300px;
-	height:500px;
-	margin-left:250px;
-	margin-top:-500px;
+color:b
+#
+
+
 }
 
-	
-	
-
-	
+#boxx3{
+width:360px;
+height:400px;
+float:right;
+color:grey;
+}
 

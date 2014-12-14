@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<title>Service</title>
+ <link  rel="stylesheet" type="text/css" href="css/Servicestyle.css">
+<script type="text/javascript">
+
+var slideimages = new Array() // create new array to pre-load images
+slideimages[0] = new Image() // create new instance of image object
+slideimages[0].src = "images/one.jpg" // set image object src property to an image's src, preloading that image in the process
+slideimages[1] = new Image()
+slideimages[1].src = "images/two.jpg"
+slideimages[2] = new Image()
+slideimages[2].src = "images/three.jpg"
+
+</script>
+</head>
+<body>
+<div id="all">
+		<!--Navigation Bar-->
+			<div id="nav">
+		<div id="nav_wrapper">
+			<ul>
+				<li><a href="file:///H:/Semester%201/HTML%20website/index.html">Home</a>
+				</li>
+				<li> <a href="#">Shop</a>
+
+					<ul> 
+							
+						<li><a href="sale.html">Laptops &amp; PC's</a>
+						</li>
+						<li><a href="salephones.html">Phones &amp; Tablets</a>
+						</li>
+					</ul>
+				</li>
+				<li> <a href="#">Repairs</a>
+
+					<ul>
+						<li><a href="file:///H:/Semester%201/HTML%20website/phones.html">Phones/Tablets Service</a>
+						</li>
+						<li><a href="file:///H:/Semester%201/HTML%20website/Service.html">Computer Service</a>
+						</li>
+					</ul>
+				</li>
+				<li> <a href="file:///H:/Semester%201/HTML%20website/contact.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+		<!--Navigation bar end-->
+		<div id="space">
+		</div>
+		<div id="slider">
+			<img src="images/one.jpg" id="slide" width="960" height="270" />
+		</div>
+	<script type="text/javascript">
+	var step=0
+
+	function slideit(){
+	 if (!document.images)
+	  return
+	 document.getElementById('slide').src = slideimages[step].src
+	 if (step<2)
+	  step++
+	 else
+	  step=0
+	 setTimeout("slideit()",2500)
+	}
+
+	slideit()
+
+</script>	
+
+</div>
+
+
+
+		<div id="boxxes">
+	
+			<div id="boxx1">
+		<h2>Laptop or Desktop</h2>
+		<p 
+		We provide a super quick repair service for laptop computers
+		</p>
+		
+		<p >
+		We remove all types of viruses from all computers, with a 100% success rate. Get your liquid damaged computer working again! We fix logicboard and you save money!</p>
+		<p> We can repair or service your Laptop or Desktop PC. As specialists in our field, we successfully repair hundreds of broken laptops, macbooks, mackbook pro, notebooks, netbooks, smartphones and PCs. We carry out laptop repairs on all makes and models of laptop including Acer, Apple, Sony, Asus, Compaq, Dell, HP, Packard Bell, Advent and Toshiba.
+         </p>  
+		<p>We specialise in Apple iPhone, iPad, iMac and <br> Macbook,  Laptop, Desktop and technology device <br>repairs. All repairs will be carried out by trained<br> technicians in our Dublin workshops, guaranteeing<br> you with an excellent service, along with a 90 days warranty. It’s peace of mind, our competitors<br> wont offer.</p>
+		<br> <h2> Android TV box Repair</h2> <p> We repair andorid smart tv boxes and update the firmware to help with wifi, display problems
+		</p>
+		<img src="images/m8.jpg" width="200" height="200" />
+		
+		
+	</div>
+	<div id="boxx2">
+		
+		<h2>Networking Service</h2>
+		<p>We Provide good quality call out service,  Are technicians  are fully  Experience with windows server 2003, 2008, 2012, lynx Red hat, we can set up a private VPN for you and give you a secure  network, Are technicians will build your network from start to finish, setting up as many workstations the company needs </p> <br>
+		<h2>Remote support</h2>
+		<p>When you get your Computer service here we will provide you with 3 months free remote support, you can sit back in the comfort of your own home why we log on to your machine from are shop, we use team viewer and we install it on your machine when we do are service for you, this saves you time making your way over to us, sit back relax and we will fix it online</p>			
+	<img src="images/server.jpg" width="200" height="200" />
+	
+	</div>
+	
+	
+	<div id"boxx3">
+	<h2>Dc jack Repair</h2>
+	<img src="images/dc.jpg" width="200" height="200"/>
+	
+	
+</div>
+	
+
+</body>
+
+</html>

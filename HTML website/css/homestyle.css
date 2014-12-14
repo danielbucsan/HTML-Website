@@ -1,6 +1,6 @@
 #body {
-    padding:0;
-    margin:0;
+    padding:0px;
+    margin:0px;
     font-family: Arial;
     font-size: 20px;
 }
@@ -12,8 +12,6 @@ background-color:white;
 	/* Navigation Bar */
 #nav {
     background-color:#222;
-	border-radius: 15px;
-	
 }
 #nav_wrapper {
     width: 960px;
@@ -120,26 +118,26 @@ margin:0 auto;
 }
 #boxxes{
 width:1080px;
-height:400px;
+height:300px;
 margin:0 auto;
 float:center;
 background-color:white;
 }
 #boxx1{
 width:360px;
-height:400px;
+height:300px;
 float:left;
 color:grey;
 }
 #boxx2{
 width:360px;
-height:400px;
+height:300px;
 float:right;
 color:grey;
 }
 #boxx3{
 width:360px;
-height:400px;
+height:300px;
 float:right;
 color:grey;
 }
@@ -153,7 +151,7 @@ margin-left: 50px;
 }
 #video
 {
-width:860;
-height:540;
-float:right;
+width:760px;
+height:480px;
+margin-left:100px;
 }

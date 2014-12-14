@@ -10,11 +10,11 @@
 
 var slideimages = new Array() // create new array to pre-load images
 slideimages[0] = new Image() // create new instance of image object
-slideimages[0].src = "one.jpg" // set image object src property to an image's src, preloading that image in the process
+slideimages[0].src = "images/one.jpg" // set image object src property to an image's src, preloading that image in the process
 slideimages[1] = new Image()
-slideimages[1].src = "two.jpg"
+slideimages[1].src = "images/two.jpg"
 slideimages[2] = new Image()
-slideimages[2].src = "three.jpg"
+slideimages[2].src = "images/three.jpg"
 
 </script>
 </head>
@@ -24,7 +24,7 @@ slideimages[2].src = "three.jpg"
 			<div id="nav">
 		<div id="nav_wrapper">
 			<ul>
-				<li><a href="#">Home</a>
+				<li><a href="file:///H:/Semester%201/HTML%20website/index.html#">Home</a>
 				</li>
 				<li> <a href="#">Shop</a>
 
@@ -38,9 +38,9 @@ slideimages[2].src = "three.jpg"
 				<li> <a href="#">Repairs</a>
 
 					<ul>
-						<li><a href="#">Phones/Tablets Service</a>
+						<li><a href="file:///H:/Semester%201/HTML%20website/phones.html">Phones/Tablets Service</a>
 						</li>
-						<li><a href="#">Computer Service</a>
+						<li><a href="file:///H:/Semester%201/HTML%20website/Service.html">Computer Service</a>
 						</li>
 					</ul>
 				</li>
@@ -53,7 +53,7 @@ slideimages[2].src = "three.jpg"
 		<div id="space">
 		</div>
 		<div id="slider">
-			<img src="one.jpg" id="slide" width="960" height="270" />
+			<img src="images/one.jpg" id="slide" width="960" height="270" />
 		</div>
 	<script type="text/javascript">
 	var step=0
@@ -66,33 +66,32 @@ slideimages[2].src = "three.jpg"
 	  step++
 	 else
 	  step=0
-	 setTimeout("slideit()",2500)
+	 setTimeout("slideit()",3000)
 	}
 
 	slideit()
 
 </script>	
 <div id="space1">
-<h1> <center>Same day delivery on most items</center></h1>
 </div>
 <div id="boxes">
 	
 	<div id="box1">
-		<img src="smartphone.jpg" width="140" align=middle height="200"/>
+		<img src="images/smartphone.jpg" width="140" align=middle height="200"/>
 		<h3>Smart-phone Repairs</h3>
 				<p></p>
 				<h2 id="price">Prices starting at &euro;10</h2>
 	</div>
 	
 	<div id="box2">
-		<img src="tablet.jpg" width="200" height="200"/>
+		<img src="images/tablet.jpg" width="200" height="200"/>
 		<h3>Tablet Repairs</h3>
 				<p></p>
 				<h2 id="price">Prices starting at &euro;25</h2>
 	</div>
 	
 	<div id="box3">
-		<img src="laptop.jpg" width="200" height="200"/>
+		<img src="images/laptop.jpg" width="200" height="200"/>
 		<h3>Laptop Repairs</h3>
 				<p></p>
 				<h2 id="price">Prices starting at &euro;25</h2>
@@ -121,7 +120,7 @@ slideimages[2].src = "three.jpg"
 
 <!--form-->
 <div id="form">
-	<img src="quick-quote.jpg" width="157" height="40" />
+	<img src="images/quick-quote.jpg" width="157" height="40" />
 	<form action="action_page.php">
 	First and Last name:<br>
 	<input type="text" name="firstname" value="">
@@ -155,15 +154,12 @@ slideimages[2].src = "three.jpg"
 <!--Form-->
 <!-- youtube video-->
 <div id="video">
-<iframe width="860" height="540"
-src="https://www.youtube.com/watch?v=eqcr7afRsX4">
+<iframe width="760" height="480"
+src="http://www.youtube.com/embed/XGSy3_Czz8k">
 </iframe>
-
 </div>
 <!--video end-->
 
-
-</div>
 </body>
 
 </html>
